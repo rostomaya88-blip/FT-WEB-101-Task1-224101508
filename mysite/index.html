@@ -1,0 +1,70 @@
+<!--
+  Name: Aya Mohamed
+  Student ID: YOUR_STUDENT_ID
+  Course: FT-WEB-101 - Field Training I - Task 1 (Profile page)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aya Mohamed - Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Aya Mohamed</h1>
+    <nav class="bar">
+      <span class="bar-name">Aya Mohamed</span>
+      <ul class="bar-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#cards">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <img src="images/me.jpg" alt="Portrait photo of Aya Mohamed" class="photo">
+    </section>
+
+    <section id="cards" class="cards">
+      <article class="card">
+        <h2>Skills</h2>
+        <p>HTML, CSS and JavaScript basics.</p>
+      </article>
+      <article class="card">
+        <h2>Hobbies</h2>
+        <p>Reading, drawing and trying new things.</p>
+      </article>
+      <article class="card">
+        <h2>Goals</h2>
+        <p>Become a confident web developer.</p>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Leave your details</h2>
+      <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+
+        <button type="submit" class="send">Send</button>
+      </form>
+    </section>
+
+    <button id="theme-btn" type="button">Toggle dark mode</button>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Aya Mohamed. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
